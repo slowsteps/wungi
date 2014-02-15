@@ -9,7 +9,7 @@
 <div id="wungiheader">
 
 	<div id="logo">
-		<img src="wp-content/themes/wungi/wungilogo.png" class="logoimage"/>
+		<img src="/wp-content/themes/wungi/wungilogo.png" class="logoimage"/>
 	</div>
 			
 	<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
