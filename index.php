@@ -33,7 +33,7 @@ function RenderPost()
 			the_title(); 
 		echo '</h2>';
 		echo '<div class="postdate">';
-			the_date();
+			if (!is_page()) the_date();
 		echo '</div>';
 	echo '</div>';
 	
