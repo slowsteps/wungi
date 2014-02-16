@@ -10,7 +10,7 @@
 <div id="wungiheader">
 
 	<div id="logo">
-		<img src="/wp-content/themes/wungi/wungilogo.png" class="logoimage"/>
+		<img src="/wp-content/themes/wungi/pics/wungilogo.png" class="logoimage"/>
 	</div>
 			
 	<?php 

@@ -21,7 +21,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 body
 {
-	background-color: cornflowerblue;
+	background-color: floralwhite;
 	margin: 0px;
 	padding: 0px;
 }
@@ -31,11 +31,23 @@ hr
 	visibility: hidden;
 }
 
+#centerdiv 
+{
+	background-color: floralwhite;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding: 40px;
+	width:80%;
+	max-width: 800px;
+	border-radius: 25px;
+	min-height: 800px;
+}
 
 
 #wungiheader
 {
-	
+	/*background-color: grey;*/
 	border-radius: 10px;
 	margin-bottom: 30px;
 }
@@ -48,6 +60,7 @@ hr
 	text-align: center;
 	padding: 0px;
 	background-color: red;
+	background-image: url("/wp-content/themes/wungi/pics/signupbackground.png")
 }
 
 #signup-calltoaction
@@ -89,7 +102,7 @@ hr
 	width: 40px;
 	border-radius: 20px;
 	border-style: none;
-	background-color: orange;
+	background-color: cornflowerblue;
 	color: floralwhite;
 	font-size: 18px;
 	font-weight: bold;
@@ -106,21 +119,9 @@ hr
 	height: 60px;
 	font-size: 42px;
 	margin-top: 0px;
+	margin-right: 30px;
 }
 
-#centerdiv 
-{
-	background-color: floralwhite;
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	padding: 40px;
-	width:80%;
-	max-width: 800px;
-	border-radius: 25px;
-	min-height: 800px;
-
-}
 
 .post
 {
@@ -152,6 +153,8 @@ hr
 {
 	text-align: center;
 	list-style-type: none;
+	/*min-width: 500px;*/
+	display: inline-block;
 }
 
 .menu-item
@@ -173,6 +176,22 @@ hr
 	margin-top: 21px;
 	display: inline-block;
 
+}
+
+.alignleft
+{
+	float: left;
+}
+
+.alignright
+{
+	float: right;
+}
+
+
+.nav-next a, .nav-previous a
+{
+	font-size: 18px;
 }
 
 .current-menu-item a:link, .current-menu-item a:visited, .current-menu-item a:hover
@@ -203,6 +222,12 @@ h2 {
 .subtitle
 {
 	font-style: italic;
+	color: grey;
+}
+
+.postdate
+{
+	color:grey;
 }
 
 a:link, a:hover, a:visited {

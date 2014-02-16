@@ -31,5 +31,9 @@ function add_custom_field_automatically($post_ID) {
 	}
 }
 
+add_action( 'init', 'load_jquery' );
+function load_jquery() {
+    wp_enqueue_script( 'jquery' );
+}
 
 ?>

@@ -10,7 +10,7 @@ if ( is_front_page() )
 	while ( $query->have_posts() ) 
 	{
 		$query->the_post();
-		RenderPost();
+		RenderFeaturedPost();
 	}
 }
 else
@@ -25,6 +25,24 @@ else
 
 
 function RenderPost()
+{
+	echo '<div class=titledeluxe>';
+		the_post_thumbnail();
+		
+		echo '<h2>';
+			the_title(); 
+		echo '</h2>';
+		echo '<div class="postdate">';
+			the_date();
+		echo '</div>';
+	echo '</div>';
+	
+	echo '<div class="post">';
+		the_content();
+	echo '</div>';
+}
+
+function RenderFeaturedPost()
 {
 	echo '<div class=titledeluxe>';
 		the_post_thumbnail();
