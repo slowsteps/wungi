@@ -149,6 +149,12 @@ hr
 	margin-left: 30px;
 }
 
+.post a:link, .post a:visited
+{
+	color:cornflowerblue;
+	font-style: bold;
+}
+
 .menu
 {
 	text-align: center;
