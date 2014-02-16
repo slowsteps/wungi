@@ -49,17 +49,18 @@ hr
 {
 	/*background-color: grey;*/
 	border-radius: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 #signup
 {
-	margin-top: 60px;
-	height: 60px;
+	margin-top: 10px;
+	height: 180px;
 	width: 100%;
 	text-align: center;
 	padding: 0px;
-	background-color: red;
+	background-color: transparent;
+	/*border: 1px solid black;*/
 	background-image: url("/wp-content/themes/wungi/pics/signupbackground.png")
 }
 
@@ -70,7 +71,7 @@ hr
 	color: floralwhite;
 	font-weight: bold;
 	background-color: red;
-	margin-top: 15px;
+	margin-top: 80px;
 	margin-right: 10px;
 	margin-left: 15px;
 }
@@ -92,7 +93,8 @@ hr
 	padding-left: 10px;
 	color: black;
 	border-style: none;
-	margin-top: 15px;
+	margin-top: 80px;
+	width: 200px;
 }
 
 /*subscribe button*/
