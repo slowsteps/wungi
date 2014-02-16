@@ -41,18 +41,65 @@ hr
 
 #wungiheader
 {
-	/*background-color: #75a30f;*/
-	/*height: 100px;*/
-	clear: both;
+	
 	border-radius: 10px;
 	margin-bottom: 30px;
 }
 
 #signup
 {
+	margin-top: 60px;
+	height: 60px;
+	width: 100%;
 	text-align: center;
-	clear: both;
+	padding: 0px;
+	background-color: red;
+}
+
+#signup-calltoaction
+{
+	float: left;
+	font-size: 24px;
+	color: floralwhite;
+	font-weight: bold;
+	background-color: red;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 15px;
+}
+
+/*form: input and button*/
+#mc-embedded-subscribe-form
+{
+	float: left;
+	margin: auto;
+	/*background-color: blue;*/
+}
+
+/*subscribe email input field*/
+#mce-EMAIL
+{
+	height: 30px;
+	font-size: 18px;
+	border-radius: 15px;
+	padding-left: 10px;
+	color: black;
+	border-style: none;
+	margin-top: 15px;
+}
+
+/*subscribe button*/
+#mc-embedded-subscribe
+{
 	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	border-style: none;
+	background-color: orange;
+	color: floralwhite;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 5px;
 }
 
 #logo
@@ -78,6 +125,7 @@ hr
 	max-width: 800px;
 	border-radius: 25px;
 	min-height: 800px;
+
 }
 
 .post

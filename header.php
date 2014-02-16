@@ -13,14 +13,12 @@
 		<img src="/wp-content/themes/wungi/wungilogo.png" class="logoimage"/>
 	</div>
 			
-	<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+	<?php 
+		wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); 
+		include 'signup.php';
+	?>
 
 	
 
 </div>
 
-<!-- 
-	<div id="signup">
-		Wunig in your inbox
-	</div>
- -->
