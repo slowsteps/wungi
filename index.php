@@ -29,7 +29,7 @@ function RenderPost()
 	echo '<div class=titledeluxe>';
 		the_post_thumbnail();
 		$subtitle = get_post_meta( get_the_ID(), 'subtitle', true );
-		if( ! empty( $subtitle ) ) echo '<div class="subtitle">'.$subtitle.'</div>';
+		if( $subtitle != "empty" ) echo '<div class="subtitle">'.$subtitle.'</div>';
 		echo '<h2>';
 			the_title();
 		echo '</h2>';
