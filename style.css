@@ -258,5 +258,14 @@ a:link, a:hover, a:visited {
 	height: auto;
 }
 
+.size-medium
+{
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
 
 
