@@ -12,13 +12,18 @@
 	<div id="logo">
 		<img src="/wp-content/themes/wungi/pics/wungilogo.png" class="logoimage"/>
 	</div>
-			
-	<?php 
-		wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); 
-		include 'signup.php';
-	?>
-
 	
+			
+	<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+
+	<div id="tagline">
+		<?php echo get_bloginfo ( 'description' ); ?>
+	</div>
+		
+
+	<?php include 'signup.php';?>
+	
+
 
 </div>
 
