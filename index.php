@@ -30,7 +30,11 @@ function RenderPost()
 		the_post_thumbnail();
 		
 		echo '<h2>';
-			the_title(); 
+			echo '<a href="';
+			the_permalink();
+			echo '">'.get_the_title().'</a>';
+			
+			//the_title(); 
 		echo '</h2>';
 		echo '<div class="postdate">';
 			if (!is_page()) the_date();
